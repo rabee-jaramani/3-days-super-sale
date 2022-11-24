@@ -23,6 +23,9 @@ import tcp from './body/logos/tcp.svg';
 import toms from './body/logos/toms.svg';
 import xside from './body/logos/xside.svg';
 import lc_dreams from './body/logos/lc_dreams.svg';
+import tommy from './body/logos/tommy.svg';
+import calvin from './body/logos/calvin.svg';
+import rbkids from './body/logos/rbkids.svg';
 
 export const data_list = [
   {
@@ -132,6 +135,20 @@ export const data_list = [
       'DEIRA CITY CENTRE',
       'MIRDIF CITY CENTRE',
       'BURJUMAN CENTRE',
+      ],
+  },
+  {
+    id: 70,
+    brand: 'Calvin',
+    logo: calvin,
+    offer1: 'Flat 40% Off',
+    offer2: 'On Selected Items',
+    stores: ['OUTLET MALL', 
+    'MIRDIF CITY CENTRE',   
+    'NAKHEEL MALL',
+    'DUBAI HILLS MALL',
+    'MERAAS OUTLET VILLAGE',
+    'MALL OF THE EMIRATES',
       ],
   },
   {
@@ -316,6 +333,14 @@ export const data_list = [
     'DUBAI HILLS MALL'],
   },
   {
+    id: 210,
+    brand: 'R&B Kids',
+    logo: rbkids,
+    offer1: 'Flat 40% Off',
+    offer2: 'On Selected Items',
+    stores: ['DUBAI HILLS MALL'],
+  },
+  {
     id: 22,
     brand: 'Rituals',
     logo: rituals,
@@ -344,6 +369,23 @@ export const data_list = [
     'MIRDIF CITY CENTRE',
     'DUBAI HILLS MALL',
     'AL GHURAIR CENTRE',
+    ],
+  },
+  {
+    id: 240,
+    brand: 'TOMMY',
+    logo: tommy,
+    offer1: '50% Off',
+    offer2: 'On Selected Items',
+    stores: ['MALL OF THE EMIRATES',           
+    'DUBAI FESTIVAL CITY',
+    'DEIRA CITY CENTRE',       
+    'IBN BATTUTA MALL',       
+    'MIRDIF CITY CENTRE',
+    'MARINA MALL DXB',       
+    'DUBAI HILLS MALL',         
+    'DUBAI OUTLET MALL',     
+    'MERAAS OUTLET VILLAGE',
     ],
   },
   {
